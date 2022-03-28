@@ -1,0 +1,156 @@
+@font-face {
+    font-family: myriad;
+    src: url('./MYRIADPRO-REGULAR.OTF');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #dddddd;
+    font-family: 'myriad', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.background {
+    background-image: linear-gradient(180deg, rgba(2, 0, 36, 0.6026785714285714) 0%, rgba(0, 7, 8, 1) 0%, rgba(0, 0, 0, 0) 39%), url('/img/home.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 797px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav {
+    padding: 30px 0;
+}
+
+.logo>a>img {
+    width: 76px;
+}
+
+.menu>ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu>ul>li>a {
+    color: white;
+    text-decoration: none;
+    margin: 0 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.slider_content>h1 {
+    font-size: 50px;
+}
+
+.slider_content>p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #dfdfdf;
+    margin-top: 20px;
+}
+
+button.order_btn {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 35px;
+    background-color: #f64b3c;
+    border: none;
+    color: white;
+    margin: 25px 0;
+    border-radius: 25px;
+}
+
+.slider_content {
+    position: relative;
+    display: block;
+    padding: 175px 0;
+}
+
+.our_chef {
+    background-image: url('/img/background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 796px;
+}
+
+.header_title {
+    width: 530px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 65px;
+}
+
+.header_title>h3 {
+    font-size: 45px;
+    color: #f64b3c;
+    font-weight: 600;
+}
+
+.header_title>p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #ed5e52;
+    margin-top: 30px;
+}
+
+.profile {
+    width: 367px;
+    display: inline-block;
+    text-align: center;
+}
+
+.profile>img {
+    width: 150px;
+}
+
+.content_box {
+    padding: 140px 0;
+}
+
+.profile {width: 367px;display: inline-block;text-align: center;}
+
+.profile > img {
+    width: 150px;
+}
+
+.content_box {
+    padding: 140px 0;
+}
+
+.profile > h4 {
+    font-size: 25px;
+    color: #f64b3c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.profile > p {
+    font-size: 20px;
+    color: #ed5e52;
+    margin: 5px 0;
+}
