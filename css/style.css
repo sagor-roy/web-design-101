@@ -82,6 +82,8 @@ button.order_btn {
     color: white;
     margin: 25px 0;
     border-radius: 25px;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .slider_content {
@@ -153,4 +155,129 @@ button.order_btn {
     font-size: 20px;
     color: #ed5e52;
     margin: 5px 0;
+}
+
+section.single_buger {
+    display: block;
+    position: relative;
+    background-color: #f64b3c;
+    padding: 130px 0;
+}
+
+.burger_content {
+    display: inline-block;
+    width: 550px;
+}
+
+.burger_content.img {
+    text-align: center;
+    width: 500px !important;
+}
+
+.burger_content.img {
+    text-align: center;
+    width: 500px !important;
+}
+
+.burger_content > h4 {
+    font-size: 55px;
+}
+
+.burger_content > p {
+    font-size: 20px;
+    padding: 20px 0;
+    display: inline-block;
+}
+
+.burger_content > button {
+    font-size: 15px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 9px 20px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px 0;
+    border-radius: 25px;
+    color: #f64b3c;
+    font-weight: 600;
+}
+
+.burger_content.img > img {width: 300px;}
+
+.burger_box {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.burger_content.img {
+    text-align: center;
+    width: 500px !important;
+}
+
+.burger_content > h4 {
+    font-size: 55px;
+}
+
+.burger_content > p {
+    font-size: 20px;
+    padding: 20px 0;
+    display: inline-block;
+}
+
+.burger_content > button {
+    font-size: 15px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 9px 20px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px 0;
+    border-radius: 25px;
+    color: #f64b3c;
+    font-weight: 600;
+}
+
+.burger_content.img > img {width: 300px;}
+
+.burger_box {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.burger_content > button:hover,
+.burger_box.big > div > button:hover,
+button.order_btn:hover {
+    background-color: #9cb666;
+    color: black;
+    transition: 0.5s;
+}
+
+.burger_content.img>img {
+    /* transition: all ease 0.5s; */
+}
+
+.burger_content.img>img:hover {
+    transform: scale(1.10);
+}
+
+.burger_box.big {
+    padding: 246px 0;
+}
+
+.burger_box.big > div > h4 {
+    color: #f64b3c;
+}
+
+.burger_box.big > div > p {
+    color: #ed5e52;
+}
+
+.burger_box.big > div > button {
+    background-color: #f64b3c;
+    color: white;
+    /* transition: 0.5s; */
 }
