@@ -437,3 +437,107 @@ section.counter_box {
     font-family: none;
 }
 
+input.forom-control {
+    width: 395px;
+    padding: 15px 25px;
+    border: gainsboro;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.form-group>button {
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    padding: 13px 9px;
+    border: none;
+    background-color: #f64b3c;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+form {
+    margin-top: 53px;
+}
+
+.header_title.subscribe {
+    padding: 258px 0px;
+}
+
+footer {
+    background-color: #222222;
+    color: #b3b3b3;
+    padding: 150px 0px;
+}
+
+.footer_box {
+    position: relative;
+    display: inline-block;
+}
+
+.two_column {
+    width: 550px;
+    display: inline-block;
+    float: left;
+    padding: 35px;
+}
+
+.two_column.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.two_column>.page_link>h4,
+.two_column>h4 {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.two_column>p {
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-align: justify;
+    padding: 15px 0px;
+}
+
+
+ul.socila {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 15px 0px;
+}
+
+ul.socila>li {
+    margin-right: 15px;
+}
+
+ul.socila>li>a {
+    background-color: #e5e5e5;
+    font-size: 20px;
+    color: #222222;
+    padding: 7px 10px;
+    border-radius: 100%;
+    transition: 0.5s;
+}
+
+ul.socila>li>a:hover {
+    background-color: #f56154;
+    font-size: 22px;
+    color: white;
+}
+
+.page_link>ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.page_link>ul>li>a {
+    text-decoration: none;
+    margin: 10px 0px;
+    display: block;
+    color: #b3b3b3;
+    letter-spacing: 1px;
+}
