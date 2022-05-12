@@ -716,11 +716,87 @@ ul.socila>li>a:hover {
         height: 100%;
         background-size: 100% 100%;
     }
-    
+
+    .burger_content.img>img {
+        width: 250px;
+    }
+
+    .burger_box {
+        display: flex;
+    }
+
+    .counter_profile {
+        margin: 0;
+    }
+
+    .counter_content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .popular_content {
+        width: 100%;
+        margin: 0 10px;
+    }
+
+    .popular {
+        display: flex;
+        margin-top: 25px;
+        padding-bottom: 25px;
+    }
+
+
 }
+
+
 
 @media (min-width:768px) {
     button.menu_btn {
         display: none;
     }
+}
+
+@media (max-width:575px) {
+    .burger_box {
+        display: block;
+        text-align: center;
+    }
+
+    .burger_content.img {
+        width: 100% !important;
+        padding-bottom: 26px;
+    }
+
+    .burger_content {
+        width: 100%;
+    }
+
+    .counter_content {
+        display: block;
+        width: 100%;
+    }
+
+    .counter_profile {
+        display: block;
+        width: 170px;
+        align-items: center;
+        justify-content: center;
+        margin: 20px auto;
+    }
+
+    .header_title.counter_title {
+        width: 100%;
+        display: block;
+    }
+
+    .header_title.subscribe {
+        width: 100%;
+    }
+
+    .form-group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
