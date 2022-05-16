@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <div id="bg_layer" class="layer"></div>
     <!-- navbar with home slider -->
     <section class="background">
         <nav>
@@ -19,11 +20,14 @@
                     <a href="">
                         <img src="img/logo.png" alt="logo">
                     </a>
-                    <button class="menu_btn">
+                    <button id="open" type="button" class="menu_btn">
                         <i class="fas fa-bars"></i>
                     </button>
                 </div>
-                <div class="menu">
+                <div id="sidebar" class="menu">
+                    <button id="close" class="close_btn" type="button">
+                        <i class="fas fa-close"></i>
+                    </button>
                     <ul>
                         <li><a href="">Home</a></li>
                         <li><a href="">About</a></li>
@@ -264,5 +268,9 @@
         </div>
     </footer>
 </body>
+
+<script src="./js/jquery.min.js"></script>
+<script src="./js/main.js"></script>
+
 
 </html>

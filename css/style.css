@@ -546,8 +546,8 @@ ul.socila>li>a:hover {
 .dropdown {
     position: absolute;
     background-color: white;
-    visibility: hidden;
-    opacity: 0;
+    /* visibility: hidden; */
+    /* opacity: 0; */
     width: 160px;
     z-index: 99;
     box-shadow: 0 4px 5px 2px #222222;
@@ -558,8 +558,8 @@ ul.socila>li>a:hover {
     position: absolute;
     background-color: white;
     width: 160px;
-    visibility: hidden;
-    opacity: 0;
+    /* visibility: hidden; */
+    /* opacity: 0; */
     z-index: 99;
     left: 170px;
     top: 0;
@@ -617,12 +617,12 @@ ul.socila>li>a:hover {
     top: 9px;
 }
 
-.menu>ul>li:hover .dropdown,
+/* .menu>ul>li:hover .dropdown,
 .dropdown>ul>li:hover .sub_dropdown {
     visibility: visible;
     opacity: 1;
     transform: translateY(15px);
-}
+} */
 
 
 /* responsive css */
@@ -745,6 +745,55 @@ ul.socila>li>a:hover {
         padding-bottom: 25px;
     }
 
+    .menu {
+        position: fixed;
+        background-color: #f64b3c;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 9;
+        width: 40%;
+        text-align: center;
+        transform: translateX(310px);
+        transition: all ease 0.5s;
+        -webkit-transform: ;
+        -moz-transform: ;
+        -ms-transform: ;
+        -o-transform: ;
+        -webkit-transition: all ease 0.5s;
+        -moz-transition: all ease 0.5s;
+        -ms-transition: all ease 0.5s;
+        -o-transition: all ease 0.5s;
+    }
+
+    .menu>ul>li>a {
+        padding: 10px;
+        display: block;
+    }
+
+    .menu>ul {
+        margin-top: 55px;
+    }
+
+    button.close_btn {
+        font-size: 24px;
+        float: right;
+        padding: 5px 10px;
+        border: none;
+        cursor: pointer;
+        box-shadow: 0 0 4px 0px #222222;
+    }
+
+    .layer {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0 0 0 / 65%);
+        z-index: 1;
+        cursor: pointer;
+        display: none;
+    }
 
 }
 
@@ -752,6 +801,14 @@ ul.socila>li>a:hover {
 
 @media (min-width:768px) {
     button.menu_btn {
+        display: none;
+    }
+
+    button.close_btn {
+        display: none;
+    }
+
+    .layer {
         display: none;
     }
 }
